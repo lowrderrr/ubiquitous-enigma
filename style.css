@@ -3,22 +3,20 @@ box-sizing: content box;
 width: 200; 
 }
 
-
-
-
-
 *{
     box-sizing:border-box;
   }
 
 body{
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:Times New Roman, Helvetica, sans-serif;
     margin:0;
 
 /*style header*/
+    
 .header{
   padding:80px;
   text-align:center;
-  background-color:green;
+  background-color:violet;
   color:black;
 }
+    
