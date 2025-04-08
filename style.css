@@ -1,54 +1,48 @@
-{
-box-sizing: content box; 
-width: 200;
-height: 100;
+/* Keep all the previous CSS */
+.upload-frame {
+  position: relative;
+  background-color: #fff;
+  border: 3px dashed #999;
+  padding: 2rem;
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  transition: border-color 0.3s;
+  cursor: pointer;
 }
 
-*{
-    box-sizing:border-box;
-  }
-
-body{
-    font-family:Times New Roman, Helvetica, sans-serif;
-    margin:0;
-
-/*style header*/
-    
-.header{
-  padding:80px;
-  text-align:center;
-  background-color:violet;
-  color:black;
+.upload-frame.dragover {
+  border-color: #007BFF;
+  background-color: #eef6ff;
 }
 
-    /*style for border and content box*/
+#fileSelect {
+  margin-top: 1rem;
+  padding: 0.5rem 1.2rem;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
 
-    div {
-        width: 160px;
-        height: 80px; 
-        padding: 20px; 
-        border: 8px; solid red; 
-        background: black; 
-    } 
+#fileSelect:hover {
+  background-color: #0056b3;
+}
 
-    .content-box {
+#preview {
+  margin-top: 1rem;
+}
 
-        box-sizing: content-box; 
-        /* Total width: 160px + (2 * 20px) + (2 * 8px) = 216px
-     Total height: 80px + (2 * 20px) + (2 * 8px) = 136px
-     Content box width: 160px
-     Content box height: 80px */
-    } 
-
-    .border-box{
-
-        box-sizing: border-box; 
-        /* Total width: 160px
-     Total height: 80px
-     Content box width: 160px - (2 * 20px) - (2 * 8px) = 104px
-     Content box height: 80px - (2 * 20px) - (2 * 8px) = 24px */
-
-    }
+#preview img,
+#preview video {
+  max-width: 100%;
+  max-height: 300px;
+  border-radius: 8px;
+  margin-top: 1rem;
+}
 
 
         
