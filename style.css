@@ -23,10 +23,11 @@ body{
 
     /*style for border and content box*/
 
-    div{
-     width: 160px;
+    div {
+        width: 160px;
         height: 80px; 
         padding: 20px; 
+        border: 8px; solid red; 
         background: black; 
     } 
 
