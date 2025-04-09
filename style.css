@@ -1,5 +1,4 @@
-  
-/* Keep all the previous CSS */
+  /* Keep all the previous CSS */
 .upload-frame {
   position: relative;
   background-color: #fff;
@@ -68,4 +67,21 @@
   background-color: #007BFF;
   color: #fff;
 }
+
+.grid-wrapper{
+  display:flex;
+  gap:20px;
+}
+
+.grid{
+display:grid; 
+  grid-template-colums:(2 1fr);
+  gap:10px; 
+  width: 50%;
+}
+
+grid-right {
+  background-color: #e0e0e0; /* for clarity */
+}
+
 
