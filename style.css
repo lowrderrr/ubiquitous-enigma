@@ -63,22 +63,5 @@
   transition: background-color 0.3s ease;
 }
 
-.grid-container a:hover {
-  background-color: #007BFF;
-  color: #fff;
-}
-
-.grid-container{
-  display:grid;
-  grid-template-colums: 100px;
-}
-.item{
-  background: pink;
-}
-  
-
-grid-right {
-  background-color: #e0e0e0; /* for clarity */
-}
 
 
