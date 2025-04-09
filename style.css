@@ -45,6 +45,31 @@
   margin-top: 1rem;
 }
 
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+.grid-container a {
+  display: block;
+  padding: 1rem;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.grid-container a:hover {
+  background-color: #007BFF;
+  color: #fff;
+}
+
+
 
 
 
