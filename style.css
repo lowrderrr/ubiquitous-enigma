@@ -68,17 +68,14 @@
   color: #fff;
 }
 
-.grid-wrapper{
-  display:flex;
-  gap:20px;
+.grid-container{
+  display:grid;
+  grid-template-colums: 100px;
 }
-
-.grid{
-display:grid; 
-  grid-template-colums:(2 1fr);
-  gap:10px; 
-  width: 50%;
+.item{
+  background: pink;
 }
+  
 
 grid-right {
   background-color: #e0e0e0; /* for clarity */
