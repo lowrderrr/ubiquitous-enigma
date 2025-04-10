@@ -55,6 +55,34 @@
         </div>  
 
         <style>
+          .container {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "menu content"
+    "footer footer";
+  grid-template-columns: 1fr 3fr;
+  gap: 5px;
+  background-color: violet;
+  padding: 5px;
+}
+.container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+}
+.container > div.header {
+  grid-area: header;
+  text-align: center;
+}
+.container > div.menu {
+  grid-area: menu;
+}
+.container > div.content {
+  grid-area: content;
+}
+        </style>
+
+         <style>
 
           .item1{
             grid-area:right; 
@@ -96,42 +124,7 @@
           <div class="item2"><p>je ne sais pas</p>
           </div>
       </div>
-
-            
-        
-        
-        
-        
-        
         </body>
-
-        <style>
-          .container {
-  display: grid;
-  grid-template-areas:
-    "header header"
-    "menu content"
-    "footer footer";
-  grid-template-columns: 1fr 3fr;
-  gap: 5px;
-  background-color: violet;
-  padding: 5px;
-}
-.container > div {
-  background-color: rgba(255, 255, 255, 0.8);
-  padding: 10px;
-}
-.container > div.header {
-  grid-area: header;
-  text-align: center;
-}
-.container > div.menu {
-  grid-area: menu;
-}
-.container > div.content {
-  grid-area: content;
-}
-        </style>
 
         <div class="container">
           <div clas="header"><h2>My Header</h2><div>
