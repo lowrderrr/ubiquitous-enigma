@@ -95,17 +95,26 @@
    <div class="grid-box">Design 4</div>
 </section>
 
-            <div class="grid-container">
+            <section>
+
+              <div class="grid-container">
               <div class="item"> item okay </div>
             </div>
+            
+            </section>
 
+            
             <style> 
               
               .grid-container{
   display:grid;
-  grid-template-colums: 100px;
-  display: left;
-}
+  grid-template-colums: 100px 100px;
+                grid-template-rows: 100px;
+                grid-alignment:right; 
+                grid-gap:20px;
+              }
+
+       
 .item{
   background: pink;
 }
@@ -113,7 +122,8 @@
 
 grid-right {
   background-color: #e0e0e0; /* for clarity */
-}</style>
+}
+            </style>
       
     </section>
   </main>
